@@ -36,6 +36,37 @@
 
   <h3>Ok so you have yourself a commit</h3>
   <p>Let's get the repo from github down here so we can send stuff up there.</p>
+  <p>since we already initiated the repo on git locally, we are going to have to <!DOCTYPE html>
+  this a certain way.</p>
+
+
+  <p>so to do this you have to do a couple of things<br></p>
+
+    <ul>
+    <li>git remote add origin https://github.com/iwantedjusttom/git-tutorial.git</li>
+    <li>git push -u origin master</li>
+    </ul>
+    <p>This is what these lines from above mean for you when you are adding something to a github repo</p>
+    <ul>
+    <li>the first thing creates an alias called origin that connects it to the github repository</li>
+    <li>the next line then pushes the local repo up to the master branch of the github repo</li>
+    </ul>
+
+  <h3>branches</h3>
+
+  <p> branches are really important because they allow you to take the code that you have been
+    working on and start a new version of it</p>
+  <p>to start a new branch all you have to do is git branch [name]<br>
+  Then if you want to delete a branch you can use git branch -d or -D and then the name
+of the branch</p>
+  <p> to change which branch you're on you use the same thing to look at different commits git checkout [branch name]
+    </p>
+
+  <h3>getting branches up to github</h3>
+  <p>So to get something up to github all you have to do is make sure that you're on the right branch
+    (not the master) and then do git push alias and then the branch name</p>
+  <p>you don't ever want to push with the master or edit the master on github because everyone is using import it,
+    you want to keep it as consistent as possible</p>
 
 
 
